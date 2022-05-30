@@ -116,3 +116,20 @@
     text-align: center;
     font-size: 18px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 300px 400px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-speaker {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
