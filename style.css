@@ -86,3 +86,33 @@
     width: 150px;
     background-color: #3c8f5d;
 }
+
+.info-img-container img {
+    width: 250px;
+    height: 200px;
+    border: 6px solid #3c8f5d;
+    border-radius: 5px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 32px;
+}
+
+.info-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-top: 70px;
+}
+
+.info {
+    max-width: 250px;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+}
