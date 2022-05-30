@@ -42,14 +42,16 @@
 }
 
 .header-bar img {
-    width: 500px;
-    height: auto;
+    width: 605px;
+    height: 250px;
+    display: flex;
+    align-self: center;
 }
 
 .header-bar {
     display: flex;
     background-color: #26727e;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .hero-container, .title, .title-sub, .title-button {
@@ -62,6 +64,9 @@
     align-items: flex-start;
     padding: 36px;
     gap: 20px;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: center;
 }
 
 .title {
@@ -76,4 +81,6 @@
 .title-button {
     font-size: 25px;
     border: 1px solid #d8eee1;
+    border-radius: 15px;
+    width: 150px;
 }
