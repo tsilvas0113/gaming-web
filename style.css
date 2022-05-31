@@ -133,3 +133,50 @@
     font-weight: 700;
     align-self: flex-end;
 }
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-head, .left-text, .right-side, .right-button {
+    background-color: #3c8f5d;
+}
+
+.left-side {
+    border-left: 1px solid #3c8f5d;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 28px 120px;
+    padding-right: 0;
+    background-color: #3c8f5d;
+    width: 750px;
+    margin-right: -50px;
+}
+
+.left-head {
+    font-size: 30px;
+}
+
+.left-text {
+    font-size: 18px;
+}
+
+.right-side {
+    display: flex;
+    height: 111px;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 107px;
+    border-right: 1px solid #3c8f5d;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.right-button {
+    width: 150px;
+    font-size: 25px;
+    border: 1px solid #d8eee1;
+    border-radius: 8px;
+    padding: 5px;
+}
